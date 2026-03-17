@@ -1,0 +1,17 @@
+* {
+  
+  box-sizing: border-box;
+  font-family: 'gilroy', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+
+#tasklist::-webkit-scrollbar {
+  display: none
+}
+
+@import "tailwindcss";
